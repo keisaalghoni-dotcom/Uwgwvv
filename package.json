@@ -1,0 +1,23 @@
+{
+  "name": "remotion-fakta-shorts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Template Remotion untuk YouTube Shorts motion graphics 30 detik",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts FaktaShorts out/fakta-unik.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.4.0"
+  }
+}
